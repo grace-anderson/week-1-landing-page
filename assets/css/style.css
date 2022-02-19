@@ -75,7 +75,11 @@ footer {
   color: #fdf8f5;
 }
 
-/* ----- about mer ----- */
+/* ----- about me ----- */
+#about-me-section {
+  padding-bottom: 20px;
+}
+
 li.about-me-list {
   display: block;
   padding: 0px 20px;
