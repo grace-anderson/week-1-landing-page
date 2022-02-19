@@ -23,10 +23,6 @@ h2 {
   margin: 20px;
 }
 
-h2 {
-  text-align: center;
-}
-
 main {
   padding: 60px 0;
 }
@@ -35,7 +31,7 @@ p {
   margin: 0 80px;
 }
 
-li {
+li.nav {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
@@ -56,18 +52,17 @@ footer {
   width: 100%;
   line-height: 60px;
   background-color: #7C8C03;
+  border-bottom: 10px solid #BCBF6B;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #BCBF6B;
 }
 
 footer {
   position: absolute;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #BCBF6B;
   color: #fdf8f5;
 }
 
