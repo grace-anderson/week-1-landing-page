@@ -9,6 +9,7 @@ body {
   position: relative;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
+  font-weight: 400;
   background-color: #fbf9f6;
   color: #040D08;
 }
@@ -22,8 +23,16 @@ h2 {
   margin: 20px;
 }
 
+h2 {
+  text-align: center;
+}
+
 main {
   padding: 60px 0;
+}
+
+p {
+  margin: 0 80px;
 }
 
 li {
@@ -36,6 +45,7 @@ li {
 a {
   text-decoration: none;
   color: #fbf9f6;
+  font-weight: 700;
 }
 
 /* ----- header and footer ----- */
@@ -71,9 +81,7 @@ section.photo-container {
 
 div.photo-card {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  margin: 20px auto;
   width: 60%;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
