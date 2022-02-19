@@ -31,7 +31,7 @@ p {
   margin: 0 80px;
 }
 
-li.nav {
+li {
   display: inline;
   padding: 0px 20px;
   text-decoration: none;
@@ -42,6 +42,15 @@ a {
   text-decoration: none;
   color: #fbf9f6;
   font-weight: 700;
+}
+
+
+/* ----- navigation---- */
+li.nav {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+  margin-bottom: 20px;
 }
 
 /* ----- header and footer ----- */
@@ -64,6 +73,16 @@ footer {
   margin-top: 0;
   bottom: 0;
   color: #fdf8f5;
+}
+
+/* ----- about mer ----- */
+li.about-me-list {
+  display: block;
+  padding: 0px 20px;
+}
+
+li.about-me-list:last-child {
+  padding: 0px 0px;
 }
 
 /* ----- photo card image section  ----- */
